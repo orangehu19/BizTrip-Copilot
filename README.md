@@ -43,6 +43,25 @@ Skill Agents
 Final Response + Memory Update
 ```
 
+## Project Structure
+
+```text
+BizTrip/
+├── agents/                         # IntentionAgent, OrchestrationAgent, lazy registry
+├── context/                        # short-term and long-term memory
+├── data/
+│   ├── memory/                     # local memory files, ignored except .gitkeep
+│   └── models/bge-small-zh-v1.5/   # local BGE embedding model
+├── docs/                           # demo notes
+├── tests/                          # unit tests, eval queries, evaluation runner
+├── utils/                          # JSON parsing, circuit breaker, LLM resilience
+├── .claude/skills/                 # plugin-style Skill Agents
+├── cli.py                          # Rich CLI entrypoint
+├── config.py                       # environment-based config
+├── config_agentscope.py            # AgentScope initialization
+└── requirements.txt
+```
+
 ## Features
 
 | Module | Description |
@@ -137,22 +156,5 @@ python cli.py
 我之前说过什么酒店偏好？
 ```
 
-## Project Structure
 
-```text
-BizTrip/
-├── agents/                         # IntentionAgent, OrchestrationAgent, lazy registry
-├── context/                        # short-term and long-term memory
-├── data/
-│   ├── memory/                     # local memory files, ignored except .gitkeep
-│   └── models/bge-small-zh-v1.5/   # local BGE embedding model
-├── docs/                           # demo notes
-├── tests/                          # unit tests, eval queries, evaluation runner
-├── utils/                          # JSON parsing, circuit breaker, LLM resilience
-├── .claude/skills/                 # plugin-style Skill Agents
-├── cli.py                          # Rich CLI entrypoint
-├── config.py                       # environment-based config
-├── config_agentscope.py            # AgentScope initialization
-└── requirements.txt
-```
 
