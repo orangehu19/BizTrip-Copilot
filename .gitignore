@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AgentScope
+.agentscope/
+
+# Local Claude/Codex settings
+.claude/*.json
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Data
+data/rag_knowledge/
+data/memory/*.json
+!data/memory/.gitkeep
+data/preferences/*.json
+!data/preferences/.gitkeep
+.claude/skills/ask-question/data/rag_knowledge/
+milvus_lite.db/
+test.db/
+
+# Test cache
+.pytest_cache/
+tests/results/*.md
+!tests/results/eval_report_latest.md
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

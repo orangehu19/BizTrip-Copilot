@@ -1,0 +1,212 @@
+[
+  {
+    "id": "rag_001",
+    "category": "rag",
+    "query": "北京出差住宿标准是多少？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["住宿", "标准", "北京"]
+  },
+  {
+    "id": "rag_002",
+    "category": "rag",
+    "query": "如何报销差旅费用？需要哪些材料？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["报销", "材料", "发票"]
+  },
+  {
+    "id": "rag_003",
+    "category": "rag",
+    "query": "机票应该提前多久预订比较合适？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["机票", "提前", "预订"]
+  },
+  {
+    "id": "rag_004",
+    "category": "rag",
+    "query": "航班延误了应该怎么办？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["航班", "延误", "改签"]
+  },
+  {
+    "id": "rag_005",
+    "category": "rag",
+    "query": "航班取消后可以改签吗？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["航班", "取消", "改签"]
+  },
+  {
+    "id": "rag_006",
+    "category": "rag",
+    "query": "出差可以携带家属吗？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["家属", "出差"]
+  },
+  {
+    "id": "rag_007",
+    "category": "rag",
+    "query": "打车费报销有什么要求？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["打车", "报销", "发票"]
+  },
+  {
+    "id": "rag_008",
+    "category": "rag",
+    "query": "酒店发票丢了还能报销吗？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["酒店", "发票", "报销"]
+  },
+  {
+    "id": "rag_009",
+    "category": "rag",
+    "query": "阿里商旅平台有哪些功能？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["平台", "申请", "预订"]
+  },
+  {
+    "id": "rag_010",
+    "category": "rag",
+    "query": "北京有哪些常用机场？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["北京", "机场", "首都"]
+  },
+  {
+    "id": "rag_011",
+    "category": "rag",
+    "query": "上海出差有什么城市注意事项？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["上海", "出差", "注意"]
+  },
+  {
+    "id": "rag_012",
+    "category": "rag",
+    "query": "差旅途中遇到紧急情况联系谁？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["紧急", "联系", "情况"]
+  },
+  {
+    "id": "rag_013",
+    "category": "rag",
+    "query": "出差怎么做到环保？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["环保", "出差", "公共交通"]
+  },
+  {
+    "id": "rag_014",
+    "category": "rag",
+    "query": "高铁和飞机预订有什么建议？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["高铁", "飞机", "预订"]
+  },
+  {
+    "id": "rag_015",
+    "category": "rag",
+    "query": "差旅申请审批流程是什么？",
+    "expected_intent": "rag_knowledge",
+    "expected_keywords": ["差旅", "申请", "审批"]
+  },
+  {
+    "id": "trip_001",
+    "category": "itinerary",
+    "query": "我从北京去杭州出差一周，帮我规划行程",
+    "expected_intent": "itinerary_planning",
+    "expected_keywords": ["北京", "杭州", "一周"]
+  },
+  {
+    "id": "trip_002",
+    "category": "itinerary",
+    "query": "下周一从上海出发去深圳，周五回来，帮我安排行程",
+    "expected_intent": "itinerary_planning",
+    "expected_keywords": ["上海", "深圳", "周一"]
+  },
+  {
+    "id": "trip_003",
+    "category": "itinerary",
+    "query": "我要去成都出差3天，安排一下住宿和交通",
+    "expected_intent": "itinerary_planning",
+    "expected_keywords": ["成都", "3天", "住宿"]
+  },
+  {
+    "id": "trip_004",
+    "category": "itinerary",
+    "query": "2月27日从广州到北京参加会议，帮我规划路线",
+    "expected_intent": "itinerary_planning",
+    "expected_keywords": ["广州", "北京", "会议"]
+  },
+  {
+    "id": "trip_005",
+    "category": "itinerary",
+    "query": "我想在杭州玩两天，帮我做一个日程",
+    "expected_intent": "itinerary_planning",
+    "expected_keywords": ["杭州", "两天", "日程"]
+  },
+  {
+    "id": "pref_001",
+    "category": "preference",
+    "query": "我喜欢住汉庭酒店，以后帮我记住",
+    "expected_intent": "preference",
+    "expected_keywords": ["汉庭", "酒店"]
+  },
+  {
+    "id": "pref_002",
+    "category": "preference",
+    "query": "我还喜欢住如家",
+    "expected_intent": "preference",
+    "expected_keywords": ["如家", "追加"]
+  },
+  {
+    "id": "pref_003",
+    "category": "preference",
+    "query": "我常坐东航，座位要靠窗",
+    "expected_intent": "preference",
+    "expected_keywords": ["东航", "靠窗"]
+  },
+  {
+    "id": "pref_004",
+    "category": "preference",
+    "query": "我搬家到上海浦东了",
+    "expected_intent": "preference",
+    "expected_keywords": ["上海浦东", "搬家"]
+  },
+  {
+    "id": "memory_001",
+    "category": "memory",
+    "query": "我之前说过什么酒店偏好？",
+    "expected_intent": "memory_query",
+    "expected_keywords": ["酒店", "偏好"]
+  },
+  {
+    "id": "memory_002",
+    "category": "memory",
+    "query": "我最近去过哪些地方？",
+    "expected_intent": "memory_query",
+    "expected_keywords": ["最近", "去过"]
+  },
+  {
+    "id": "memory_003",
+    "category": "memory",
+    "query": "我上次去北京是什么时候？",
+    "expected_intent": "memory_query",
+    "expected_keywords": ["上次", "北京"]
+  },
+  {
+    "id": "info_001",
+    "category": "information",
+    "query": "杭州下周天气怎么样？",
+    "expected_intent": "information_query",
+    "expected_keywords": ["杭州", "天气"]
+  },
+  {
+    "id": "info_002",
+    "category": "information",
+    "query": "查一下北京明天会不会下雨",
+    "expected_intent": "information_query",
+    "expected_keywords": ["北京", "下雨"]
+  },
+  {
+    "id": "info_003",
+    "category": "information",
+    "query": "搜索一下深圳最近的展会信息",
+    "expected_intent": "information_query",
+    "expected_keywords": ["深圳", "展会"]
+  }
+]
