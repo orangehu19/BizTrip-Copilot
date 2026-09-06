@@ -97,8 +97,6 @@ BIZTRIP_TEMPERATURE=0.7
 BIZTRIP_MAX_TOKENS=8192
 ```
 
-`.env` 已被 `.gitignore` 忽略，请不要提交真实 API Key。
-
 ### 3. Initialize Knowledge Base
 
 ```powershell
@@ -110,8 +108,6 @@ python .claude/skills/ask-question/script/init_knowledge_base.py
 ```text
 .claude/skills/ask-question/data/rag_knowledge/
 ```
-
-该目录属于本机运行产物，不会提交到 GitHub。
 
 ### 4. Run Evaluation
 
@@ -160,17 +156,3 @@ BizTrip/
 └── requirements.txt
 ```
 
-## Security Notes
-
-- Do not commit `.env` or any real API Key.
-- `.env.example` only contains placeholders.
-- Local memory JSON files are ignored to avoid leaking personal interaction records.
-- Local Milvus Lite databases are ignored because they can be regenerated from source documents.
-- Python caches and temporary evaluation reports are ignored.
-
-## Roadmap
-
-- Add Web UI for stronger demo presentation.
-- Replace JSON memory with PostgreSQL or Redis-backed storage.
-- Add Docker Compose for one-command local startup.
-- Expand evaluation set and add observability for Agent execution traces.
